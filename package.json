@@ -1,0 +1,16 @@
+{
+  "name": "pokespoke",
+  "version": "1.0.0",
+  "description": "npm init -y npm install --save-dev parcel .gitignore node add \"start\" script inside package.json create index.html inside src",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
