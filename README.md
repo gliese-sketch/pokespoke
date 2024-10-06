@@ -15,3 +15,9 @@ cards with 4 col lg, 3 col md, 1 col on smaller
 use of class: display-1, my-3
 
 ---
+
+linked js file
+we made the input element focus on / key press
+we have to import data.json inside main.js
+`import data from 'data.json';`
+add `<script type="module">`
