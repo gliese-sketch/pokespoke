@@ -5,9 +5,26 @@ const cardsRow = document.querySelector("#cards-row");
 const inputEl = document.querySelector("input");
 
 for (let pokemonObj of data) {
-  const p = document.createElement("p");
-  p.textContent = pokemonObj.name;
-  cardsRow.appendChild(p);
+  const div = document.createElement("div");
+  div.classList.add("col");
+
+  div.innerHTML = `
+  <div class="card">
+    <img
+      src="${pokemonObj.image}"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">${pokemonObj.name}</h5>
+      <p class="card-text">
+        ${pokemonObj.description}
+      </p>
+    </div>
+  </div>
+  `;
+
+  cardsRow.appendChild(div);
 }
 
 // Focus input on / keypress

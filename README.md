@@ -21,3 +21,4 @@ we made the input element focus on / key press
 we have to import data.json inside main.js
 `import data from 'data.json';`
 add `<script type="module">`
+render pokemon name inside paragraph in our website
