@@ -12,3 +12,6 @@ and to run: npm start and not using live-server
 import bootstrap.css
 navbar with icons8 image
 cards with 4 col lg, 3 col md, 1 col on smaller
+use of class: display-1, my-3
+
+---
